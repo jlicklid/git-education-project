@@ -13,5 +13,9 @@ book with code examples from "HTM5 cookbook" and "Murach's HTML5 and CSS3" by Bo
 "HTML and CSS3:for the real world" by Goldstein, Alexis; Lazaris, Louis; Weyl, Estelle. Used the simplified web page sample in 
 book with code examples from "HTM5 cookbook" and "Murach's HTML5 and CSS3" by Boehm, Annie; Rulvalcaba, Zak.
 
+"missing-manual-ch2" folder
+
+Changed the original website from chapter 2 and the online website sample "http://prosetech.com/html5/Chapter%2002/ApocalypseSite.html" related to the "HTML5 missing manual" by MacDonald, Matthew. I didn't do much just created navigation menu and changed the aside section to from left to right because it looks better aesthetically (my opinion). 
+
 I am relearning html and css from years before and these exercises proved very beneficial. I will eventually create original 
 websites, but until then this is fun.
