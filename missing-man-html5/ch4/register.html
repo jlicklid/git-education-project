@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- saved from url=(0014)about:internet -->
+	<title>HTML5 feature detection</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/register.css">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<header class="siteHeader">
+		<img src="images/site_logo.png" alt="Apocalypse Today">
+		<h1 style="display:none">Apocalypse today</h1>
+	</header>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="../ch2/index.html">Home</a></li>
+			<li><a href="#register">Register</a></li>
+			<li><a href="../ch5/media.html">Media</a></li>
+			<li><a href="../ch7/fluid.html">Fluid CSS</a></li>
+		</ul>
+	</nav>
+	
+	<h1>Zoo Keeper application form</h1>
+	<form id="zooKeeperForm" action="#" onsubmit="return validateForm()">
+		<p><i>Please complete the form. Mandatory fields are marked with a </i><em>*</em></p>
+		<fieldset>
+			<legend>Contact Details</legend>
+				<label for="name">Name <em>*</em></label>
+				<input id="name" placeholder="Jane Smith" autofocus required><br>
+				<label for="telephone">Telephone</label>
+				<input id="telephone" placeholder="(xxx) xxx-xxxx"><br>
+				<label for="email">Email <em>*</em></label>
+				<input id="email" type="email" required><br>
+		</fieldset>
+		<fieldset>
+			<legend>Personal Information</legend>
+			
+				<label for="birthDate">Birth Date <em>*</em></label>
+				<input id="birthDate" type="date" required><br>
+				
+				<label for="age">Age <em>*</em></label>
+				<input id="age" type="number" min="0" max="120" step="0.1" required><br>
+				<label for="gender"> Gender <em>*</em></label>
+				<select id="gender">
+					<option value="female">Female</option>
+					<option value="male">Male</option>
+				</select><br>
+				<label for="comments">When did you first know you wanted to be a zoo-keeper?</label>
+				<textarea id="comments" oninput="validateComments(this)"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Pick your favorite animals</legend>
+			<label for="zebra"><input id="zebra" type="checkbox">Zebra </label>
+			<label for="cat"><input id="cat" type="checkbox">Cat </label>
+			<label for="anaconda"><input id="anaconda" type="checkbox">Anaconda </label>
+			<label for="human"><input id="human" type="checkbox">Human </label>
+			<label for="elephant"><input id="elephant" type="checkbox">Elephant </label>
+			<label for="wildebeest"><input id="wildebeest" type="checkbox">Wildebeest </label>
+			<label for="pigeon"><input id="pigeon" type="checkbox">Pigeon </label>
+			<label for="crab"><input id="crab" type="checkbox">Crab </label>
+		</fieldset>
+		<p><input type="submit" value="Submit Application"></p>
+	</form>
+	<div id="footer">
+		<p class="Disclaimer">These apocalyptic predictions do not reflect the views of the author.</p>
+			<p>
+				<a href="about.html">About us</a>
+				<a href="disclaimer.html">Disclaimer</a>
+				<a href="contact.html">Contact Us</a>
+			</p>
+			<p>Copyright &copy; 2017</p>
+	</div>
+		<script src="js/custom.js"></script>
+</body>
+</html>

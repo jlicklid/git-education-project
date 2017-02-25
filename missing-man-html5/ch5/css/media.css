@@ -1,0 +1,6 @@
+HTML.videoogg .ogg.ok {
+  display: block;
+}
+HTML.no-videoogg .ogg.no {
+  display: block;
+}
