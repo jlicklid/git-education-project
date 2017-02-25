@@ -19,3 +19,5 @@ Changed the original website from chapter 2 and the online website sample "http:
 
 I am relearning html and css from years before and these exercises proved very beneficial. I will eventually create original 
 websites, but until then this is fun.
+
+created folders for chapters 2,4,5,7 missing manual book: fixed the navigation menu for the individual websites, changed css from one external file to 2 files, used javascript from google search for media type detection. 
