@@ -16,6 +16,7 @@ main {
     width: 500px;
     margin: auto;
     background: gray;
+    overflow: auto;
 }
 nav {
     width: 100px;
@@ -27,4 +28,6 @@ nav p {
 }
 p.content {
     margin: 0;
+    float: left;
+    width: 400px;
 }
