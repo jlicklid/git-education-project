@@ -12,3 +12,15 @@ p {
     border: 1px solid gray;
     padding: 10px;
 }
+main {
+    width: 500px;
+    margin: auto;
+    background: gray;
+}
+nav {
+    width: 200px;
+    float: right;
+}
+p.content {
+    margin: 0;
+}
