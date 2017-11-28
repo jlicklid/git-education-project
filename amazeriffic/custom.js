@@ -9,6 +9,7 @@ var main = function () {
         "Make up some new ToDos",
         "Get Groceries"
     ];
+};
        $(element).on("click", function () {
             var $element = $(element);
                 $content;
