@@ -55,3 +55,6 @@ p.content {
     background: #ddd;
     padding: 5px;
 }
+.tabs a span.active {
+    background: #eee;
+}
