@@ -3,6 +3,9 @@ body {
     width: 800px;
     margin: auto;
 }
+header, main, footer {
+    min-width: 855px;
+}
 h1 {
     color: maroon;
     text-align: center;
