@@ -18,8 +18,12 @@ main {
     background: gray;
 }
 nav {
-    width: 200px;
+    width: 100px;
     float: right;
+}
+nav p {
+    margin: 0;
+    padding: 0;
 }
 p.content {
     margin: 0;
