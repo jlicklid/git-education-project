@@ -1,13 +1,24 @@
 body {
-    background: lightcyan;
-    width: 800px;
-    margin: auto;
+    background: #f9e933;
 }
 header, main, footer {
     min-width: 855px;
 }
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
 header {
     background: white;
+    overflow: auto;
+}
+header h1 {
+    float: left;
+    width: 570px;
+}
+header nav {
+    float: right;
+    width: 285px;
 }
 h1 {
     color: maroon;
@@ -19,10 +30,7 @@ p {
     padding: 10px;
 }
 main {
-    width: 500px;
-    margin: auto;
     background: white;
-    overflow: auto;
 }
 nav {
     width: 100px;
