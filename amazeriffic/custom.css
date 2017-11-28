@@ -6,6 +6,9 @@ body {
 header, main, footer {
     min-width: 855px;
 }
+header {
+    background: white;
+}
 h1 {
     color: maroon;
     text-align: center;
@@ -18,7 +21,7 @@ p {
 main {
     width: 500px;
     margin: auto;
-    background: gray;
+    background: white;
     overflow: auto;
 }
 nav {
