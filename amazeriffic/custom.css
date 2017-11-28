@@ -28,6 +28,7 @@ nav p {
 }
 p.content {
     margin: 0;
+    padding: 10px;
     float: left;
-    width: 400px;
+    width: 380px;
 }
